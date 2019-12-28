@@ -14,7 +14,7 @@ Writeup by: **archerrival**
 ## Solution
 
 The description mentions `Remote Crashed Craft Computer Console`, which corresponds to a rc4 encryption. This encryption requires a key
-to use, so we turn back to the png file. The code at the top of the image looks similar to the Masonic Cipher.
+to use, so we turn back to the png file. The code at the top of the image looks similar to the [Masonic Cipher](https://sites.google.com/site/lostsymbolproject/masonic-cipher).
 
 ![](images/prometheus2.png)
 
