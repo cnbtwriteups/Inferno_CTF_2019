@@ -14,7 +14,7 @@ Writeup by: **archerrival**
 File Attached : [output.zip](https://infernoctf.live/files/cdd6e5cf98555210c4f3b7a9fa439fcd/output.zip?token=eyJ0ZWFtX2lkIjo3OCwidXNlcl9pZCI6MjEyLCJmaWxlX2lkIjoxMX0.XgcGmQ.orZ0uBC1zvL0aOHXIOQ5H7eyQ3g)
 
 ## Solution
-When we try to extract the file, it prompts us for a password. Using the hint, we find that the last name of mrT4ntr4 is **Malhotra**.
+When we try to extract the file, it prompts us for a password. Using the hint, we find that [mrT4ntr4's last name](https://github.com/mrT4ntr4) is **Malhotra**.
 Using that as our password, we are able to extract the file.
 
 We receive a file called `flag.gif`. We try to open it, but we are unable to. Let's see what the file header says.
