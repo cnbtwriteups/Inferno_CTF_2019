@@ -1,5 +1,5 @@
 # [Whistle Blower](https://infernoctf.live/challenges#Whistle%20Blower)
-OSINT
+OSINT,
 300 Points
 
 Author: nullpxl
