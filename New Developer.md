@@ -15,7 +15,7 @@ Looking at the [link we are given](https://github.com/iamthedeveloper123), we ca
 
 The first thing I did was check out [/bash2048](https://github.com/iamthedeveloper123/bash2048) as it was the first one on the repos list. 
 
-Scrolling through, we see some *interesting* code for our loss condition of the game ([line 300-302](https://github.com/iamthedeveloper123/bash2048/blob/master/bash2048.sh#L300))- 
+Scrolling through, we see some *interesting* code for our loss condition of the game ([line 300-302](https://github.com/iamthedeveloper123/bash2048/blob/master/bash2048.sh#L300)) 
 ```
 source ../dotfiles/.bashrc2
 printf "\nYou have lost, try going to https://pastebin.com/$CODE for help!.  (And also for some secrets...) \033[0m\n"
