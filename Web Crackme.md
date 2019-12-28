@@ -134,7 +134,7 @@ With this information in mind, lets draw out what happens to this variable.
 
 Now, lets go ahead and check out the next hex value `0x5579`, which will become `0x7955` due to endienness.
 
-Let's now go ahead and put this value into the 3rd byte of the variable (overwriting the d3, as it was there previously, due to the `(i32.const 3)`)
+Let's now go ahead and put this value into the 3rd bit of the variable (overwriting the d3, as it was there previously, due to the `(i32.const 3)`)
 
 Our variable should now look like this.
 
