@@ -37,3 +37,5 @@ Combining `https://pastebin.com/`and `trpNwEPT` yields us with a working link th
 Link: https://pastebin.com/trpNwEPT
 
 Mirror: https://web.archive.org/web/20191228071022/https://pastebin.com/raw/trpNwEPT
+
+Flag: `infernoCTF{n3ver_4dd_sen5itv3_7hings_to_y0ur_publ1c_git}`
