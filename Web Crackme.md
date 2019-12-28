@@ -146,7 +146,7 @@ Combining all the pieces together, this yields us with `0xefbe59795566`
 
 ![](images/webcrackme7.png)
 
-Now, let's do that all again for the other variable :)
+Now, let's do that all again for the other variable :) (yes, the arrows were supposed to point down...)
 
 ![](images/webcrackme8.png)
 
