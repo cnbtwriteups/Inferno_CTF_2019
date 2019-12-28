@@ -1,4 +1,4 @@
-[# Whistle Blower](https://infernoctf.live/challenges#Whistle%20Blower)
+# [Whistle Blower](https://infernoctf.live/challenges#Whistle%20Blower)
 OSINT
 300 Points
 
