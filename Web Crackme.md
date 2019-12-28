@@ -140,7 +140,7 @@ Our variable should now look like this.
 
 ![](images/webcrackme6.png)
 
-Now the final piece of the first variable should be very easy, as it is just one byte long, meaning we don't have to mess with it for endenness, and just have to place it directly into the 5th section.
+Now the final piece of the first variable should be very easy, as it is just one bit, meaning we don't have to mess with it for endenness, and just have to place it directly into the 5th section.
 
 Combining all the pieces together, this yields us with `0xefbe59795566`
 
