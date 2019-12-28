@@ -1,4 +1,4 @@
-## [New Developer](https://infernoctf.live/challenges#New%20Developer)
+## [Web Crackme](https://infernoctf.live/challenges#Web%20Crackme)
 
 Reversing, 399 Points
 
