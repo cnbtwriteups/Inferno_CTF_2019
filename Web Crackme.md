@@ -122,7 +122,7 @@ Web Assembly, also known as WASM, *Gross* (but quite cool, and indeed, *the futu
 Looking through the code, we can make sense of it. Our returning variable seems to be i32, as it is the only variable there,
 and we have a statement that seems to `load` a variable off of it.
 
-Web Assembly is in little endian, so when interpreting these pieces of hex, we must be aware that they will not be entered into the variable the way we might immediately expect due to the endienness.
+Web Assembly is in little endian, so when interpreting these pieces of hex, we must be aware that they will not be entered into the variable the way we might immediately expect due to the endianness.
 
 Our hex value `0xd359beef` will become `0xefbe59d3` when loaded into the variable at the `0`th bit (which is what `(i32.const 0)` is saying to do)
 
@@ -132,15 +132,15 @@ With this information in mind, lets draw out what happens to this variable.
 
 ![](images/webcrackme5.png)
 
-Now, lets go ahead and check out the next hex value `0x5579`, which will become `0x7955` due to endienness.
+Now, lets go ahead and check out the next hex value `0x5579`, which will become `0x7955` due to endianness.
 
-Let's now go ahead and put this value into the 3rd bit of the variable (overwriting the d3, as it was there previously, due to the `(i32.const 3)`)
+Let's now go ahead and put this value into the 3rd byte of the variable (overwriting the d3, as it was there previously, due to the `(i32.const 3)`)
 
 Our variable should now look like this.
 
 ![](images/webcrackme6.png)
 
-Now the final piece of the first variable should be very easy, as it is just one bit, meaning we don't have to mess with it for endenness, and just have to place it directly into the 5th section.
+Now the final piece of the first variable should be very easy, as it is just one byte, meaning we don't have to mess with it for endianness, and just have to place it directly into the 5th section.
 
 Combining all the pieces together, this yields us with `0xefbe59795566`
 
@@ -152,9 +152,9 @@ Now, let's do that all again for the other variable :) (yes, the arrows were sup
 
 This yields us `0x2dba39654D2D`
 
-Now that we have the variables, we can see that in the code, the variables are only being loaded and returned starting at the 2nd bit position due to the code `i32.load 2`
+Now that we have the variables, we can see that in the code, the variables are only being loaded and returned starting at the 2nd byte position due to the code `i32.load 2`
 
-Going back to the first variable, `0xefbe59795566`, we grab all the pieces starting at the 2nd bit until the end, then due to endienness, reversing its order back once again, after grabbing only the piece we need.
+Going back to the first variable, `0xefbe59795566`, we grab all the pieces starting at the 2nd bit until the end, then due to endianness, reversing its order back once again, after grabbing only the piece we need.
 
 This will give us `66557959` for the first variable
 
