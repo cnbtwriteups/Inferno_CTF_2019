@@ -154,7 +154,7 @@ This yields us `0x2dba39654D2D`
 
 Now that we have the variables, we can see that in the code, the variables are only being loaded and returned starting at the 2nd byte position due to the code `i32.load 2`
 
-Going back to the first variable, `0xefbe59795566`, we grab all the pieces starting at the 2nd bit until the end, then due to endianness, reversing its order back once again, after grabbing only the piece we need.
+Going back to the first variable, `0xefbe59795566`, we grab all the pieces starting at the 2nd byte until the end, then due to endianness, reversing its order back once again, after grabbing only the piece we need.
 
 This will give us `66557959` for the first variable
 
