@@ -4,7 +4,7 @@ OSINT, 50 Points
 
 Author: nullpxl
 
-Solved: -0x1C
+Writeup By: **-0x1C**
 
 >A friend of a friend of a friend who is known for leaking info was recently hired at a game company. 
 >What can you find in their GitHub profile?
