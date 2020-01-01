@@ -1,4 +1,4 @@
-## [New Developer](https://infernoctf.live/challenges#Where%20did%20he%20GO?)
+## [Where did he GO?](https://infernoctf.live/challenges#Where%20did%20he%20GO?)
 
 Reversing, 50 Points
 
